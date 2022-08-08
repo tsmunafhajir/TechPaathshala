@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+
+    <style>
+        * {
+            font-weight: bold;
+        }
+
+        #box1 {
+            width: 500px;
+            padding: 20px;
+            background-color: lightgreen;
+            position: relative;
+            top: 0;
+            left: 0;
+            text-align: center;
+        }
+
+        #parentbox {
+            width: 500px;
+            height: 300px;
+            border: 3px solid green;
+            position: relative;
+            /* top: 100px;
+            left: 20px; */
+            text-align: center;
+        }
+
+        #childbox {
+            width: 100px;
+            height: 100px;
+            background-color: lightgreen;
+            position: absolute;
+            top: 200px;
+            left: 250px;
+            text-align: center;
+        }
+
+        #box2 {
+            width: 300px;
+            height: 100px;
+            background-color: lightgreen;
+            position: fixed;
+            right: 10px;
+            bottom: 10px;
+            text-align: center;
+        }
+
+        #box3 {
+            color: #fff;
+            margin-top: 150px;
+            position: sticky;
+            top: 0;
+            border: 2px solid green;
+            text-align: center;
+            padding: 10px;
+            background-color: green;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="box1">
+        <h3>Position Relative Demo</h3>
+    </div>
+
+    <div id="parentbox">
+        <h3>Position Absolute Demo</h3>
+        <div id="childbox">
+            <p>Child</p>
+        </div>
+    </div>
+
+    <div id="box2">
+        <h3>Position Fixed Demo</h3>
+    </div>
+
+    <div id="box3">
+        I am Sticky
+    </div>
+    <div style="padding-bottom: 1000px;">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo recusandae odio sunt. Alias tempora odit
+            quibusdam, maxime illo odio veritatis inventore voluptatibus ullam, laboriosam iste officiis ab corporis
+            totam labore rem eaque blanditiis. Facilis assumenda rerum libero, excepturi ipsa laborum explicabo
+            tempore perferendis aut adipisci sed asperiores voluptates repudiandae molestias.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo recusandae odio sunt. Alias tempora odit
+            quibusdam, maxime illo odio veritatis inventore voluptatibus ullam, laboriosam iste officiis ab corporis
+            totam labore rem eaque blanditiis. Facilis assumenda rerum libero, excepturi ipsa laborum explicabo
+            tempore perferendis aut adipisci sed asperiores voluptates repudiandae molestias.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo recusandae odio sunt. Alias tempora odit
+            quibusdam, maxime illo odio veritatis inventore voluptatibus ullam, laboriosam iste officiis ab corporis
+            totam labore rem eaque blanditiis. Facilis assumenda rerum libero, excepturi ipsa laborum explicabo
+            tempore perferendis aut adipisci sed asperiores voluptates repudiandae molestias.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo recusandae odio sunt. Alias tempora odit
+            quibusdam, maxime illo odio veritatis inventore voluptatibus ullam, laboriosam iste officiis ab corporis
+            totam labore rem eaque blanditiis. Facilis assumenda rerum libero, excepturi ipsa laborum explicabo
+            tempore perferendis aut adipisci sed asperiores voluptates repudiandae molestias.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo recusandae odio sunt. Alias tempora odit
+            quibusdam, maxime illo odio veritatis inventore voluptatibus ullam, laboriosam iste officiis ab corporis
+            totam labore rem eaque blanditiis. Facilis assumenda rerum libero, excepturi ipsa laborum explicabo
+            tempore perferendis aut adipisci sed asperiores voluptates repudiandae molestias.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo recusandae odio sunt. Alias tempora odit
+            quibusdam, maxime illo odio veritatis inventore voluptatibus ullam, laboriosam iste officiis ab corporis
+            totam labore rem eaque blanditiis. Facilis assumenda rerum libero, excepturi ipsa laborum explicabo
+            tempore perferendis aut adipisci sed asperiores voluptates repudiandae molestias.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo recusandae odio sunt. Alias tempora odit
+            quibusdam, maxime illo odio veritatis inventore voluptatibus ullam, laboriosam iste officiis ab corporis
+            totam labore rem eaque blanditiis. Facilis assumenda rerum libero, excepturi ipsa laborum explicabo
+            tempore perferendis aut adipisci sed asperiores voluptates repudiandae molestias.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo recusandae odio sunt. Alias tempora odit
+            quibusdam, maxime illo odio veritatis inventore voluptatibus ullam, laboriosam iste officiis ab corporis
+            totam labore rem eaque blanditiis. Facilis assumenda rerum libero, excepturi ipsa laborum explicabo
+            tempore perferendis aut adipisci sed asperiores voluptates repudiandae molestias.
+        </p>
+    </div>
+
+</body>
+
+</html>

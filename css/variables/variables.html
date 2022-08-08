@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables</title>
+
+    <style>
+        :root {
+            --primary-color: #1e90ff;
+            --secondary-color: #ffffff;
+        }
+
+        body {
+            background-color: var(--primary-color);
+        }
+
+        h2 {
+            border-bottom: 2px solid var(--primary-color);
+        }
+
+        .container {
+            color: var(--primary-color);
+            background-color: var(--secondary-color);
+            padding: 15px;
+        }
+
+        button {
+            /* --primary-color: #e45095; */
+            background-color: var(--secondary-color);
+            color: var(--primary-color);
+            border: 1px solid var(--primary-color);
+            padding: 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Variables Demo Using var() Functiion</h1>
+
+    <div class="container">
+        <h2>Lorem Ipsum</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar
+            felis blandit.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar
+            felis blandit.</p>
+        <p>
+            <button>Yes</button>
+            <button>No</button>
+        </p>
+    </div>
+</body>
+
+</html>

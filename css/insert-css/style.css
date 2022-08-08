@@ -1,0 +1,13 @@
+.wrapper{
+    background-color: blue;
+}
+
+.wrapper h1{
+    color: yellow; 
+    text-align: center;
+}
+
+.wrapper p{
+    color: white; 
+    text-align: center;
+}

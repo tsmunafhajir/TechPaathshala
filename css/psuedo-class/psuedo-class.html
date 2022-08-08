@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psuedo Class</title>
+
+    <style>
+        div {
+            text-align: center;
+        }
+
+        #box1 {
+            background-color: green;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        #box1:hover {
+            background-color: red;
+            height: 100px;
+        }
+
+        #box2{
+            padding: 50px;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        p {
+            background-color: yellow;
+            color: red;
+            padding: 20px;
+            text-align: center;
+            font-weight: bold;
+            display: none;
+        }
+
+        #box2:hover p {
+            display: block;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div>
+        <h1>Psuedo Class Demo</h1>
+
+        <div id="box1">
+            <h3>Mouse Over Me</h3>
+        </div>
+
+        <div id="box2">Hover Me to Display Box
+            <p>Tada! Here I am...</p>
+        </div>
+        
+    </div>
+</body>
+
+</html>

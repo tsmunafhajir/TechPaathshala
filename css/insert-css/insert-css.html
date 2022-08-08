@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insert CSS</title>
+    
+    <!-- External CSS Filed Linked -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Internal CSS Code-->
+    <style>
+        .wrapper{
+            background-color: coral;
+        }
+
+        .wrapper h1{
+            color: blue; 
+            text-align: center;
+        }
+
+        .wrapper p{
+            color: #fff; 
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Inline CSS Applied -->
+    <div style="background-color: lightblue;">
+        <h1 style="color: green; text-align: center;">This is Heading 1</h1>
+        <p style="color: red; text-align: center;">This is a Paragraph 1</p>
+    </div>
+
+    <!-- Internal & External CSS Applied -->
+    <div class="wrapper">
+        <h1>This is Heading 2</h1>
+        <p>This is a Paragraph 2</p>
+    </div>
+</body>
+
+</html>
