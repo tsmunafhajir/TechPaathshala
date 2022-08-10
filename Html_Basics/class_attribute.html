@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class attribute</title>
+    <style type="text/css">
+        .head{
+            text-align: center;
+            color:yellow;
+        }
+        p.mypara{
+            background-color:pink;
+            font-style: italic;
+            text-decoration: line-through;
+            text-shadow: 3px 4px 0px saddlebrown;
+        }
+        h3.one{
+            background-color:rgb(49, 163, 14);
+            font-style: oblique;
+            font-variant: small-caps;
+            
+        }
+        h3.two::after{
+            content:"Geekyshows Says";
+        }
+        h3.two::before{
+            content:url("ballon.png");
+        }
+    </style>
+</head>
+<body>
+    <h2 class="head">This is the second heading in the web page.</h2>
+    <p class="mypara">This is the paragraph with mypara class attribute</p>
+    <h3 class="one two">This is The third heading in the web page.</h3>
+
+    <script>
+        var head1 = document.getElementsByClassName("head");
+        console.log(head1);
+
+        head1[0].textContent = "Today is 5th august 2022";
+    </script>
+</body>
+</html>

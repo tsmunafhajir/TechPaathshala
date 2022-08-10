@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>optgroup tag</title>
+</head>
+<body>
+    <form>
+    <label for="courses">Course</label>
+    <select name="course" id="courses" required>
+        <optgroup label="core programming">
+        <option value="python">Python</option>
+        <option value="java">Java</option>
+        </optgroup>
+        <optgroup label="android programming" disabled>
+        <option value="kotlin">Kotlin</option>
+        <option value="android">Android</option>
+        </optgroup>
+    </select><br><br>
+    <input type="submit" value="Save" />
+</form>
+</body>
+</html>

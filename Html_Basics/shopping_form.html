@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Form</title>
+</head>
+<body>
+    
+    <form>
+        <!------first name field------>
+        <label for="fname">First Name</label>
+        <input type="text" name="fname" id="fname"><br><br>
+
+
+        <!------Last name field------>
+        <label for="lname">Last Name</label>
+        <input type="text" name="lname" id="lname"><br><br>
+
+
+
+        <!------shirt dropdown list ----->
+        <label for="shirts">Type Of Shirt</label>
+        <select id="shirts" name="shirt">
+            <option value="Sleevless">Sleevless</option>
+            <option value="Sleev">Sleev</option>
+            <option value="Linen">Linen</option>
+            <option value="T-shirt">T-shirt</option>
+        </select><br><br>
+
+
+
+
+        <!-------shirt size select ---->
+        <span>Size:</span>
+        <input type="radio" name="size" id="large" value="Large">
+        <label for="large">Large</label>
+        <input type="radio" name="size" id="medium" value="Medium">
+        <label for="medium">Medium</label>
+        <input type="radio" name="size" id="small" value="Small">
+        <label for="small">Small</label><br><br>
+
+
+
+        <!-------shirt color select ---->
+        <span>Color:</span>
+        <input type="checkbox" name="color" id="red" value="Red">
+        <label for="red">Red</label>
+        <input type="checkbox" name="color" id="yellow" value="Yellow">
+        <label for="yellow">Yellow</label>
+        <input type="checkbox" name="color" id="blue" value="Blue">
+        <label for="blue">Blue</label><br><br>
+
+        <!------form submit button----->
+        <button type="submit">Buy Now !</button>
+
+        <!------form clear button----->
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
